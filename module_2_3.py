@@ -4,6 +4,8 @@ while True:
     if my_list[index] > 0:
         print(my_list[index])
         index += 1
+    elif my_list[index] == 0:
+        index += 1
         continue
     else:
         break
